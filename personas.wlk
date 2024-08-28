@@ -22,7 +22,7 @@ object luisa {
 
 object juan {
   method leGusta(unaCosa) {
-      return unaCosa.color().esFuerte() || 
+      return !unaCosa.color().esFuerte() || 
       unaCosa.peso().between(1200, 1800)
     }
 }
